@@ -1,0 +1,60 @@
+/* 共通定義 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 地図 */
+#map {
+  background: #666;
+  height: 100vh;
+  /*height: 480px;*/
+  width: 100vw;
+}
+
+/* 左ペイン */
+#menu {
+  position: absolute;
+  left: 0; 
+  top: 0;
+  width: 20%; height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  margin-left: 40px;
+  border-radius: 20px;
+  z-index: 100000;
+  text-align: center;
+  overflow: scroll;
+}
+
+#search-word {
+  margin: 20px 0;
+  padding: 2px;
+  outline: none;
+}
+
+#spot-search-button {
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.spot {
+  font-size: small;
+  padding: 3px; 
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+
+.address {
+  font-size: small;
+  padding: 3px; 
+  opacity: 0.6;
+}
+
+.route-search-button {
+  margin: 3px; 
+  cursor: pointer;
+  font-size: small;
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
